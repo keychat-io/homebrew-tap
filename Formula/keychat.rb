@@ -7,7 +7,7 @@ class Keychat < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/keychat-io/keychat-protocol/releases/download/cli-v0.1.0/keychat-aarch64-apple-darwin.tar.gz"
-      sha256 "4d8ba4f305093731c32c4afc866e5dc33d569180b382c90a793bc2217a38e454"
+      sha256 "23a48b652ee996b0e5650030d550328e0a78089d595d297f6f2a0e1895540acf"
     else
       url "https://github.com/keychat-io/keychat-protocol/releases/download/cli-v0.1.0/keychat-x86_64-apple-darwin.tar.gz"
       sha256 "PLACEHOLDER"
